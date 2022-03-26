@@ -1,0 +1,10 @@
+<ag-grid-angular
+    #grid
+    style="width: 70vw"
+    domLayout='autoHeight'
+    (gridReady)="initializeGrid(grid)"
+    class="ag-theme-alpine"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+>
+</ag-grid-angular>

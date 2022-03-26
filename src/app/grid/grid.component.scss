@@ -1,0 +1,9 @@
+ag-grid-angular {
+    margin: 20px 0px 0px 0px;
+    max-height: 80vh;
+    overflow: auto;
+    border: 1px solid lightgray;
+    @media screen and (max-width: 750px) {
+        width: 95vw;
+    }
+}
